@@ -21,17 +21,17 @@
 @keyframes icons {
 	0% {
 		stroke-dasharray: 1000;
-		stroke: #29a5d6;
+		stroke: #f4645a;
 		fill: rgba(244, 100, 90, 0);
 	}
 	90% {
-		stroke: #29a5d6;
+		stroke: #f4645a;
 		fill: rgba(244, 100, 90, 0);
 	}
 	100% {
 		stroke-dasharray: 490;
 		stroke: rgba(244, 100, 90, 0);
-		fill: #29a5d6;
+		fill: #f4645a;
 	}
 }
 @keyframes iconsCircle {
@@ -109,7 +109,7 @@ svg circle.circle {
 }
 svg circle.icons-circle {
 	fill: none;
-	stroke: #29a5d6;
+	stroke: #f4645a;
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 }
@@ -149,7 +149,7 @@ h2.custom-bar:after {
 	position: absolute;
 	bottom: 0;
 	width: 17px;
-	border-bottom: 2px solid #93e4ff;
+	border-bottom: 2px solid #f9b7b7;
 }
 h2.custom-bar._left:after {
 	left: 1px;
@@ -194,7 +194,7 @@ h6 {
 * Custom Classes
 */
 .custom-background-color-1 {
-	background-color: #1c8df2 !important;
+	background-color: #EE494A !important;
 }
 
 .custom-background-style-1 {
@@ -248,13 +248,13 @@ h6 {
 }
 
 .custom-btn-style-1, .custom-btn-style-1:active {
-	background: #29a5d6;
+	background: #f4645a;
 	background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, #ffffff), color-stop(100%, #ff857c));
-	background: -webkit-linear-gradient(left, #ffffff 0%, #29a5d6 100%);
-	background: -o-linear-gradient(left, #29a5d6 0%, #29a5d6 100%);
-	background: -ms-linear-gradient(left, #29a5d6 0%, #29a5d6 100%);
-	background: linear-gradient(to right, #29a5d6 0%, #29a5d6 100%);
+	background: -webkit-linear-gradient(left, #ffffff 0%, #f4645a 100%);
+	background: -o-linear-gradient(left, #f4645a 0%, #f4645a 100%);
+	background: -ms-linear-gradient(left, #f4645a 0%, #f4645a 100%);
+	background: linear-gradient(to right, #f4645a 0%, #f4645a 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4645a', endColorstr='#ff857c', GradientType=1 );
 	border: none;
 	border-radius: 50px !important;
@@ -279,7 +279,7 @@ h6 {
 	background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 100%);
 	background: -o-linear-gradient(left, #ffffff 0%, #ffffff 100%);
 	background: -ms-linear-gradient(left, #ffffff 0%, #ffffff 100%);
-	background: linear-gradient(to right, #29a5d6 0%, #29a5d6 100%);
+	background: linear-gradient(to right, #f4645a 0%, #f4645a 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4645a', endColorstr='#ff857c', GradientType=1 );
 }
 .custom-btn-style-1._size-1 {
@@ -296,10 +296,10 @@ h6 {
 	letter-spacing: 0.5px;
 	padding: 8px 24px;
 	background: transparent !important;
-	border-color: #29a5d6 !important;
+	border-color: #f4645a !important;
 }
 .custom-btn-style-2:hover, .custom-btn-style-2:hover:active, .custom-btn-style-2.active, .custom-btn-style-2:focus {
-	border-color: #29a5d6 !important;
+	border-color: #f4645a !important;
 }
 
 .custom-product-image-pos-1._absolute {
@@ -382,7 +382,7 @@ h6 {
 	transition: ease opacity 300ms;
 }
 .social-icons.custom-social-icons-style-1._white li a {
-	color: #29a5d6 !important;
+	color: #f4645a !important;
 }
 .social-icons.custom-social-icons-style-1._colored li.social-icons-facebook a {
 	color: #3b5a9a !important;
@@ -556,7 +556,7 @@ h6 {
 }
 @media (min-width: 992px) {
 	#header.custom-header-style .header-nav-main nav > ul > li > a {
-		background: transparent #29a5d6;
+		background: transparent #f4645a;
 	}
 }
 @media (min-width: 992px) {
@@ -780,13 +780,13 @@ html.sticky-header-active #header .header-body:after {
 	transition: ease color 300ms, ease background 300ms;
 }
 .custom-accordion-style-1 .panel-heading .panel-title a:not(.collapsed) {
-	color: #358feb !important;
-	border-left: 2px solid #358feb;
+	color: #eb3535 !important;
+	border-left: 2px solid #f24e42;
 	border-bottom: 1px solid #ddd;
-	background: #c7effc;
+	background: #f67a725e;
 }
 .custom-accordion-style-1 .panel-heading .panel-title a:not(.collapsed):after {
-	border-color: #358feb transparent transparent transparent;
+	border-color: #f24e42 transparent transparent transparent;
 	-webkit-transform: translateY(-50%) rotate(0deg);
 	-moz-transform: translateY(-50%) rotate(0deg);
 	-ms-transform: translateY(-50%) rotate(0deg);

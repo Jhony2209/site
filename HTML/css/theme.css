@@ -1192,7 +1192,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 	}
 
 	html #header.header-semi-transparent .header-nav-main nav > ul > li:not(.active) > a {
-		color: #29A5D6;
+		color: #f67a72;
 	}
 
 	html #header.header-semi-transparent .header-nav-main nav > ul > li:hover > a {
